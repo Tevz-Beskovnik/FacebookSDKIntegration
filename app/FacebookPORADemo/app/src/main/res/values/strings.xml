@@ -1,0 +1,5 @@
+<resources>
+    <string name="facebook_app_id" translatable="false">{APP_ID}</string>
+    <string name="facebook_client_token" translatable="false">{APP_SECRET}</string>
+    <string name="app_name">Facebook SDK Demo</string>
+</resources>
