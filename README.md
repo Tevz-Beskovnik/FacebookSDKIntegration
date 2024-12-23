@@ -18,7 +18,7 @@ Ima tudi storitev za oglaševanje, ter sledenja prenosov naše aplikacije
 - Preprosto deljenje slik, povezav, videjev iz lastne aplikacije na Facebook, Messenger ali Instagram.
 - Vgrajene komponente za upravljanja prijave in deljenja,
 - Enostavna integracija z obstoječo aplikacijo
-- Aktivno maintainana
+- Aktivno maintainan
 
 ## Slabosti ❌
 
@@ -28,17 +28,13 @@ Ima tudi storitev za oglaševanje, ter sledenja prenosov naše aplikacije
 - Odvisni smo od Mete,
 - Imamo zavezane roke, če odkrijemo bug
 - Zastarela dokumentacija
-- Več načinov narediti isto zadevo
+- Ni jasno kateri način uporabljat
 
 ## Licenca 📜
 
 [© Meta Platforms, Inc. and affiliates](https://github.com/facebook/facebook-android-sdk/blob/main/LICENSE.txt)
 
-### Is AnyChart free?
-
-"The **source is open** but the license is not free, you have to obtain a license for a fee for **commercial applications**.
-Also, AnyChart offers educational and non-profit licenses for our Web Charting Components.
-The trial version will work as long as you need it, we don't put any time limitations on our trials."
+Facebook SDK je zastoj. Funkcionalnosti kot so deljenje, dostop do graph API-ja, SSO so zastojn, vendar ima tudi plačljive storitve, kot je npr. storeitev za oglaševanje aplikacije.
 
 ## Število zvezdic, sledilcev, forkov
 
@@ -50,7 +46,7 @@ The trial version will work as long as you need it, we don't put any time limita
 
 ## Vzdrževanje projekta 🛠️
 
-Projekt je bil nazadnje posodobljen pred enim letom.
+Projekt je bil nazadnje posodobljen pred 2 tednoma
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/facebook/facebook-android-sdk)
 
@@ -273,3 +269,30 @@ if (activity.packageManager.resolveActivity(intent, 0) != null) {
 ```
 
 <img src="./resources/intent/story.png" alt="Story" width="400"/>
+
+---
+
+### Uporaba Graph APIja
+
+Se uporablja za pridobivanje podatkov o uporabniku, glede na dovoljenja na žetonu za dostopanje.
+
+```kt
+val request = GraphRequest.newMeRequest(
+    accessToken
+) { `object`: JSONObject?, _: GraphResponse? ->
+    try {
+        val name = `object`!!.getString("name")
+        val email = `object`.getString("email")
+        val name = `object`!!.getString("id")
+        Log.i("GraphRequest", "username: $name, email: $email", id: $id)
+    } catch (e: Exception) {
+        Log.e("RetrieveLogin", "Error fatching profile data")
+        e.printStackTrace()
+    }
+}
+
+val parameters = Bundle()
+parameters.putString("fields", "id,name,email")
+request.parameters = parameters
+request.executeAsync()
+```
