@@ -49,7 +49,7 @@ Projekt je bil nazadnje posodobljen pred 2 tednoma
 
 ## Primeri uporabe
 
-### Ustvaritev aplikacije na Facebook
+### Ustvaritev aplikacije na [Facebook developers portalu](https://developers.facebook.com/)
 
 <div style="display: flex; gap: 1rem; flex-flow: column">
     <img src="./resources/facebook-app/1create.png" alt="Tag Cloud"/>
