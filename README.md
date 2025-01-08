@@ -20,7 +20,7 @@ Ima tudi storitev za oglaševanje, ter sledenja prenosov naše aplikacije
 - Odvisni smo od Mete,
 - Z integracijo Facebook SDKja lahko Meta zbira podatke o uporabnikih ki uporabljajo našo aplikacijo,
 - Zastarela dokumentacija,
-- Ni jasno kateri način uporabljat,
+- Ni jasno katero implementacijo uporabit,
 - Za produkcijsko objavo applikacije je potrebno imeti registriran poslovni račun pri Meti
 
 ## Licenca 📜
