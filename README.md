@@ -2,7 +2,7 @@
 
 ## Zakaj? 🤔
 
-[Facebook SDK for andoird](https://developers.facebook.com/docs/android) je nabor knjižnic, ki jih ponuja Meta oz. Facebook, za itegracijo z jihovo Facebook/Messenger/Instagram aplikacijo, ter uporabniškim APIjom. Facebook SDK deluje z vsemi verzijami androida od verzije API-ja 14 dalje.
+[Facebook SDK for andoird](https://developers.facebook.com/docs/android) je nabor knjižnic, ki jih ponuja Meta oz. Facebook, za itegracijo z njihovo Facebook/Messenger/Instagram aplikacijo, ter uporabniškim APIjom. Facebook SDK deluje z vsemi verzijami androida od verzije API-ja 14 dalje.
 Knjižnica ponuja mnogo vrst interakcij z aplikacijami Meta skupine, med drugim deljenje videjev, objav, povezav, fotorgrafij in storijev na facebook. Objavljanje fotografij, ter sporočil na Messenger in objava reelsev na Instagram.
 Omogoča tudi pridobivanje podatkov do prijavljenega uporabnika preko njihove SSO funkcionalnosti.
 Ima tudi storitev za oglaševanje, ter sledenja prenosov naše aplikacije
