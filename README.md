@@ -9,11 +9,6 @@ Ima tudi storitev za oglaševanje, ter sledenja prenosov naše aplikacije
 
 ## Prednosti ✅
 
-<!--- Enostavna uporaba
-- Podpira več vrst grafikonov
-- Podpira interaktivne funkcije
-- Zanimiv način prikaza podatkov-->
-
 - Možnost uporabe Facebook SSO v naši aplikaciji
 - Preprosto deljenje slik, povezav, videjev iz lastne aplikacije na Facebook, Messenger ali Instagram.
 - Vgrajene komponente za upravljanja prijave in deljenja,
@@ -22,13 +17,11 @@ Ima tudi storitev za oglaševanje, ter sledenja prenosov naše aplikacije
 
 ## Slabosti ❌
 
-<!--- Zadnja sprememba pred enim letom
-- Številni odprti issue-ji-->
-
 - Odvisni smo od Mete,
-- Imamo zavezane roke, če odkrijemo bug
-- Zastarela dokumentacija
-- Ni jasno kateri način uporabljat
+- Z integracijo Facebook SDKja lahko Meta zbira podatke o uporabnikih ki uporabljajo našo aplikacijo,
+- Zastarela dokumentacija,
+- Ni jasno kateri način uporabljat,
+- Za produkcijsko objavo applikacije je potrebno imeti registriran poslovni račun pri Meti
 
 ## Licenca 📜
 
