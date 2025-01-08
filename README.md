@@ -289,3 +289,10 @@ parameters.putString("fields", "id,name,email")
 request.parameters = parameters
 request.executeAsync()
 ```
+
+### Integracija v aplikaciji
+
+<div style="display: flex; gap: 1rem;">
+    <img src="./resources/app/no_fb.gif" alt="integration no fb" width="400"/>
+    <img src="./resources/app/fb.gif" alt="integration fb" width="400"/>
+</div>
